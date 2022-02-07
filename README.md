@@ -17,7 +17,7 @@ function HomeView(props) {
   return (
     <FallingAnimations
       imageURl={
-        "https://png.pngtree.com/png-clipart/20210117/ourmid/pngtree-red-3d-heart-2-png-image_2760695.jpg"
+        "https://raw.githubusercontent.com/vgvishal538/vgvishal538.github.io/main/H1.png"
       }
       numberOfItems={10}
     />
@@ -28,7 +28,8 @@ export default HomeView;
 
 ## Params
 
-| Params          |   Type    | Description                      | Default                  |
-| --------------- | :-------: | -------------------------------- | ------------------------ |
-| `numberOfItems` | `Integer` | Number of images to be rendered. | `10`                     |
-| `sizeOfItems`   | `Integer` | Size (in `px`) of items.         | Dimension divided by 35. |
+| Params          |   Type    | Description                      | Default                                                                           |
+| --------------- | :-------: | -------------------------------- | --------------------------------------------------------------------------------- |
+| `imageUrl`      |   `Uri`   | Image value to render.           | `https://raw.githubusercontent.com/vgvishal538/vgvishal538.github.io/main/H1.png` |
+| `numberOfItems` | `Integer` | Number of images to be rendered. | `10`                                                                              |
+| `sizeOfItems`   | `Integer` | Size (in `px`) of items.         | Dimension divided by 35.                                                          |

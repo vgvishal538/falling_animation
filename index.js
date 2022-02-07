@@ -63,6 +63,9 @@ const FallingAnimations = (props) => {
   const { width, height } = Dimensions.get("window");
   const sizeOfItems = props.sizeOfItems || Math.max(width, height) / 35;
   const numberOfItems = props.numberOfItems || 10;
+  const imageUrl =
+    props.imageURl ||
+    "https://raw.githubusercontent.com/vgvishal538/vgvishal538.github.io/main/H1.png";
   return (
     <View
       pointerEvents="none"
@@ -80,7 +83,7 @@ const FallingAnimations = (props) => {
           index={i}
           total={numberOfItems}
           size={sizeOfItems}
-          imageUrl={props.imageURl}
+          imageUrl={imageUrl}
         />
       ))}
     </View>
