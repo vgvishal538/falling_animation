@@ -1,6 +1,6 @@
 {
   "name": "react-native-falling-animation",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Falling animation library is used to show images falling in whole screen",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/vgvishal538/falling_animation.git"
   },
-  "author": "Vishal Gupta <hiivishu@gmail.com>",
+  "author": "Vishal Gupta <vgvishal538@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vgvishal538/falling_animation/issues"
