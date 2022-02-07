@@ -1,6 +1,6 @@
 {
   "name": "react-native-falling-animation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Falling animation library is used to show images falling in whole screen",
   "main": "index.js",
   "scripts": {

@@ -52,7 +52,7 @@ const FallingAnimation = (props) => {
         opacity: 0.6,
       }}
       source={{
-        uri: props.imageURl,
+        uri: props.imageUrl,
       }}
       resizeMode="cover"
     ></Animated.Image>
