@@ -13,18 +13,17 @@ yarn add react-native-falling-animation
 ```js
 import FallingAnimations from "react-native-falling-animation";
 
-class ExampleView extends Component {
-  render() {
-    return (
-      <FallingAnimations
-        imageURl={
-          "https://png.pngtree.com/png-clipart/20210117/ourmid/pngtree-red-3d-heart-2-png-image_2760695.jpg"
-        }
-        numberOfItems={10}
-      />
-    );
-  }
+function HomeView(props) {
+  return (
+    <FallingAnimations
+      imageURl={
+        "https://png.pngtree.com/png-clipart/20210117/ourmid/pngtree-red-3d-heart-2-png-image_2760695.jpg"
+      }
+      numberOfItems={10}
+    />
+  );
 }
+export default HomeView;
 ```
 
 ## Params
