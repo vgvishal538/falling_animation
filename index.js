@@ -80,6 +80,7 @@ const FallingAnimations = (props) => {
           index={i}
           total={numberOfItems}
           size={sizeOfItems}
+          imageUrl={props.imageURl}
         />
       ))}
     </View>
