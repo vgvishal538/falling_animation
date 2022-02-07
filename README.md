@@ -2,6 +2,8 @@
 
 Falling_animation for React Native apps.
 
+![done](https://raw.githubusercontent.com/vgvishal538/vgvishal538.github.io/main/demo.gif)
+
 ## Instalation
 
 ```
